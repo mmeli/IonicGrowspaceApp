@@ -42,7 +42,7 @@ export class BevaragesPage {
     let phoneNumber: any;
     phoneNumber ='0767424870';
     let textMessage: string;
-    textMessage = 'Please prepare the following for the client: \n'+this.tea+' \n'+this.coffee+'\n'+this.water;
+    textMessage = 'Please prepare the following for the client: \n'+this.tea+' Tea'+' \n'+this.coffee+' Coffee'+'\n'+this.water+' Water \n \n Thank you Sylvia';
     this.androidPermissions.checkPermission(this.androidPermissions.PERMISSION.SEND_SMS).then(
       result => console.log('Has Permission?'+result.hasPermission),
       err => this.androidPermissions.requestPermission(this.androidPermissions.PERMISSION.SEND_SMS)
