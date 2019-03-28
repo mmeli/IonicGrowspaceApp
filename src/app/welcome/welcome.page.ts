@@ -86,7 +86,7 @@ checkedItem(te, cof, wat){
     let phoneNumber: any;
     phoneNumber =this.data1;
     let textMessage: string;
-    textMessage = 'Welcome to Groworx '+this.data+' \n \n Wifi: Groworx \n Password: G12343 \n \n Enjoy';
+    textMessage = 'Welcome to Groworx '+this.data+' \n \n Wifi: Growspace \n Password: Gr0w5p@c3 \n \n Enjoy';
     let phoneNumber2: any;
     phoneNumber2 ='0760837038';
     let textMessage2: string;
